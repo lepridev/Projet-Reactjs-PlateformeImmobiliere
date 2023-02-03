@@ -1,0 +1,40 @@
+/* Buttons */
+
+.sizeB {
+	width: 100px;
+	height: 40px;
+	padding: 5px;
+	border-radius: 3px;
+	font-size: 14px;
+	color: #fff;
+	border: 1px solid #999;
+	cursor: pointer;
+}
+
+.sizeF {
+	width: 150px;
+	height: 40px;
+	border-radius: 4px;
+}
+
+.sizeS {
+	width: 200px;
+	height: 43px;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+.colorB {
+	background-color: #fff;
+	color: #000;
+}
+
+.colorS {
+	background-color: midnightblue;
+	color: #fff;
+}
+
+.colorF {
+	background-color: #49cf8e;
+	color: #fff;
+}
