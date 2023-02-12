@@ -1,10 +1,10 @@
 /* Buttons */
 
 .sizeB {
-	width: 100px;
-	height: 40px;
+	width: 90px;
+	height: 30px;
 	padding: 5px;
-	border-radius: 3px;
+	border-radius: 4px;
 	font-size: 14px;
 	color: #fff;
 	border: 1px solid #999;

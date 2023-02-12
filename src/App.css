@@ -4,13 +4,6 @@
 	box-sizing: border-box;
 }
 
-.App {
-	padding: 20px;
-
-	display: flex;
-	flex-wrap: wrap;
-	text-align: center;
-}
 
 @media (prefers-reduced-motion: no-preference) {
 	.App-logo {
