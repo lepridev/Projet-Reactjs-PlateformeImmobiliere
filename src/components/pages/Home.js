@@ -4,7 +4,9 @@ import AvisUtilisateur from "../home/AvisUtilisateur";
 import CommentCaMarche from "../home/CommentCaMarche";
 import Main from "../home/Main";
 import OffresVedettes from "../home/OffresVedettes";
+import PackPrix from "../home/PackPrix";
 import Recapitulatif from "../home/Recapitulatif";
+import TelechargementApp from "../home/TelechargementApp";
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
       <AutreOffres />
       <CommentCaMarche />
       <AvisUtilisateur />
+      <PackPrix />
+      <TelechargementApp />
     </div>
   );
 };
