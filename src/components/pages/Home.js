@@ -1,5 +1,6 @@
 import React from "react";
 import AutreOffres from "../home/AutreOffres";
+import AvisUtilisateur from "../home/AvisUtilisateur";
 import CommentCaMarche from "../home/CommentCaMarche";
 import Main from "../home/Main";
 import OffresVedettes from "../home/OffresVedettes";
@@ -13,6 +14,7 @@ const Home = () => {
       <OffresVedettes />
       <AutreOffres />
       <CommentCaMarche />
+      <AvisUtilisateur />
     </div>
   );
 };
