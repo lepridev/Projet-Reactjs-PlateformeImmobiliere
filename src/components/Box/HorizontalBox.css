@@ -6,8 +6,9 @@
 	align-items: center;
 	width: 500px;
 	height: 240px;
-	border: 1px solid #000;
+	border: 1px solid #f1f1f1;
 	border-radius: 8px;
+	margin: 20px 20px;
 }
 
 /* Box container end */
@@ -19,7 +20,7 @@
 	height: 100%;
 }
 
-.horizontal_box_imag > .box_imag {
+.box_imag {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;

@@ -1,13 +1,13 @@
 /* Box container */
 
-.horizontal_box_container {
+.vertical_box_container {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 	width: 340px;
 	height: 450px;
-	border: 1px solid #000;
+	border: 1px solid #f1f1f1;
 	border-radius: 8px;
 	margin: 30px 20px;
 }
@@ -16,12 +16,12 @@
 
 /* Box Image */
 
-.horizontal_box_imag {
+.vertical_box_imag {
 	width: 100%;
 	height: 50%;
 }
 
-.horizontal_box_imag > .box_imag {
+.vertical_box_imag > .box_imag {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
@@ -33,7 +33,7 @@
 
 /* Box Details section  */
 
-.horizontal_box_details {
+.vertical_box_details {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -42,7 +42,7 @@
 	height: 60%;
 }
 
-.horizontal_box_detail_offer_title {
+.vertical_box_detail_offer_title {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -51,11 +51,11 @@
 	padding-left: 10px;
 }
 
-.horizontal_box_detail_offer_title > h5 {
+.vertical_box_detail_offer_title > h5 {
 	font-size: 18px;
 }
 
-.horizontal_box_detail_review_price {
+.vertical_box_detail_review_price {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -64,11 +64,11 @@
 	padding: 0 10px;
 }
 
-.horizontal_box_detail_review_price > .review_price h5 {
+.vertical_box_detail_review_price > .review_price h5 {
 	font-size: 16px;
 }
 
-.horizontal_box_detail_sale_rante_meubl {
+.vertical_box_detail_sale_rante_meubl {
 	width: 100%;
 	height: 20%;
 	display: flex;
@@ -77,7 +77,7 @@
 	padding-left: 10px;
 }
 
-.horizontal_box_detail_sale_rante_meubl > .rante {
+.vertical_box_detail_sale_rante_meubl > .rante {
 	border: 1px solid transparent;
 	padding: 8px 13px;
 	font-size: 11px;
@@ -86,7 +86,7 @@
 	color: #fff;
 }
 
-.horizontal_box_detail_options {
+.vertical_box_detail_options {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -94,7 +94,7 @@
 	height: 25%;
 }
 
-.horizontal_box_detail_options > div p {
+.vertical_box_detail_options > div p {
 	font-size: 11px;
 }
 

@@ -18,9 +18,6 @@ const OffresVedettes = () => {
         <VerticalBox />
         <VerticalBox />
         <VerticalBox />
-        <VerticalBox />
-        <VerticalBox />
-        <VerticalBox />
       </div>
     </div>
   );
