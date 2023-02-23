@@ -1,0 +1,25 @@
+.calltobeuser_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 180px;
+    width: 100%;
+    background-color: #FFA50D;
+    padding: 0 80px ;
+}
+
+.cta_title > h3 {
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.cta_title > p {
+    font-size: 20px ;
+    color: #fff;
+    padding: 0 20px;
+}
+
+
+
