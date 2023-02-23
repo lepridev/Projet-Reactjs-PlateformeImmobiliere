@@ -1,6 +1,5 @@
 import React from "react";
 import "./AutreOffres.css";
-import VerticalBox from "../Box/VerticalBox";
 import HorizontalBox from "../Box/HorizontalBox";
 import Buttons from "../buttons/Buttons";
 
