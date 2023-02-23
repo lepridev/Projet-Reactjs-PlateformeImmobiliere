@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import UserBox from "../Box/UserBox";
 
 const Louer = () => {
   return (
-    <div>Louer</div>
-  )
-}
+    <div>
+      <UserBox />
+    </div>
+  );
+};
 
-export default Louer
+export default Louer;
