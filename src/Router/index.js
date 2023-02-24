@@ -6,6 +6,7 @@ import Vendre from "../components/pages/Vendre";
 import Residence from "../components/pages/Residence";
 import Terrain from "../components/pages/Terrain";
 import Navbar from "../components/layoutComponents/Navbar";
+import ListeDesOffres from "../components/pages/ListeDesOffres";
 
 export const router = createBrowserRouter([
   {
@@ -23,6 +24,12 @@ export const router = createBrowserRouter([
         <Louer />
       </Navbar>
     ),
+    children: [
+      {
+        path: "/louer/liste-offres",
+        element: <ListeDesOffres />,
+      },
+    ],
   },
   {
     path: "/vendre",

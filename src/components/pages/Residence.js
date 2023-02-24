@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import "./Residence.css";
+import BarreRecherche from "../layoutComponents/BarreRecherche";
 
 const Residence = () => {
   return (
-    <div>Residence</div>
-  )
-}
+    <div className="residence_caontainer">
+      <BarreRecherche />
+    </div>
+  );
+};
 
-export default Residence
+export default Residence;

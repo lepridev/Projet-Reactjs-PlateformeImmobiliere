@@ -1,0 +1,109 @@
+.barreRecherche_container {
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+    background-color: #498df29e;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
+
+.standart_option {
+    width: 100%;
+    height: 70%;
+    border-bottom: 1px solid #999;
+    margin-bottom: 10px;
+}
+
+.standart_option > div {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.standart_option>div>select {
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    border-radius: 5px;
+    background-color: #498df2;
+    color: #fff;
+    border: none;
+}
+
+.standart_option>div>select:hover{
+    border: 2px solid #6f30ec;
+}
+.input_with_icon {
+    position: relative;
+}
+
+.location_icon {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-size: 22px;
+    color: #999;
+}
+
+.input_with_icon > input {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    padding-left: 40px;
+    background-color: #f1f1f1;
+    font-size: 16px;
+    border: none;
+   
+}
+
+.input_with_icon>input:hover {
+    border: 2px solid #6f30ec;
+}
+
+.advance_option {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.advance_option > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
+
+.advance_option > div > input {
+    margin-right: 10px;
+}
+
+.submit_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.submit_btn > input {
+    width: 90%;
+    height: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #1428e0;
+    color: #fff;
+    border: none;
+}

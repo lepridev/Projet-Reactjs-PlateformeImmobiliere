@@ -1,10 +1,11 @@
 import React from "react";
-import UserBox from "../Box/UserBox";
+import "./Louer.css";
+import { Outlet } from "react-router-dom";
 
 const Louer = () => {
   return (
-    <div>
-      <UserBox />
+    <div className="louer_container">
+      <Outlet />
     </div>
   );
 };

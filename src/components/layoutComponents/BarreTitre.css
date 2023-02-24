@@ -1,0 +1,14 @@
+.barreTitre_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    background-color: #29429e;
+    padding: 0 40px;
+}
+
+.barreTitre_container > h2 {
+    font-size: 42px;
+    color: #fff;
+}
