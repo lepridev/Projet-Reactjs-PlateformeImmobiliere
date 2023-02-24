@@ -1,3 +1,30 @@
 .ListesDesOffres {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
     width: 100%;
+
+}
+
+.barre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.liste {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 60%;
+    height: auto;
+}
+
+.liste_et_barre {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
 }
