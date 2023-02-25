@@ -1,10 +1,10 @@
 import React from "react";
 import "./Residence.css";
-import BarreRecherche from "../layoutComponents/BarreRecherche";
 import AdressAndPrice from "../singleProductComponents/AdressAndPrice";
 import SharingButtons from "../singleProductComponents/SharingButtons";
 import ContactPoster from "../singleProductComponents/ContactPoster";
 import DetailAndFeature from "../singleProductComponents/DetailAndFeature";
+import Description from "../singleProductComponents/Description";
 
 const Residence = () => {
   return (
@@ -12,6 +12,7 @@ const Residence = () => {
       <div className="left">
         <AdressAndPrice />
         <DetailAndFeature />
+        <Description />
       </div>
       <div className="rigth">
         <SharingButtons />
