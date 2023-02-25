@@ -1,4 +1,7 @@
 .residence_caontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     width: 100%;
     height: auto;
     padding: 40px 80px;

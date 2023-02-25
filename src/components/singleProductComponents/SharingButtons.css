@@ -1,0 +1,16 @@
+.sharingButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 100px;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
+.sharingButtons > button {
+    width: 42%;
+    height: 50%;
+    border-radius: 10px;
+    margin: 0 10px;
+}
