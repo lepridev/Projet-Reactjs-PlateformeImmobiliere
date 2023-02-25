@@ -7,6 +7,7 @@ import DetailAndFeature from "../singleProductComponents/DetailAndFeature";
 import Description from "../singleProductComponents/Description";
 import Comodites from "../singleProductComponents/Comodites";
 import Localisation from "../singleProductComponents/Localisation";
+import Galeries from "../singleProductComponents/Galeries";
 
 const Residence = () => {
   return (
@@ -17,6 +18,7 @@ const Residence = () => {
         <Description />
         <Comodites />
         <Localisation />
+        <Galeries />
       </div>
       <div className="rigth">
         <SharingButtons />
