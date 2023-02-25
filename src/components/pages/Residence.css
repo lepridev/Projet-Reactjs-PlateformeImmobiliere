@@ -1,8 +1,18 @@
-.residence_caontainer {
+.residence_container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
     height: auto;
     padding: 40px 80px;
+}
+
+.residence_container > .left {
+    width: 66%;
+    height: auto;
+}
+
+.residence_container > .rigth {
+    width: 33%;
+    height: auto;
 }
