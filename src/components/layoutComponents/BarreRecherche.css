@@ -6,7 +6,7 @@
     background-color: #498df29e;
 }
 
-form {
+.barreRecherche_form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -37,6 +37,7 @@ form {
     background-color: #498df2;
     color: #fff;
     border: none;
+    font-size: 16px;
 }
 
 .standart_option>div>select:hover{

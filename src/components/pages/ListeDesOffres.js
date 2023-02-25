@@ -12,6 +12,7 @@ const ListeDesOffres = () => {
         <div className="barre">
           <BarreRecherche />
         </div>
+        {/* Faire un map pour afficher les offres depuis la BD */}
         <div className="liste">
           <VerticalBox />
           <VerticalBox />

@@ -5,7 +5,7 @@ import { MdLocationOn } from "react-icons/md";
 const BarreRecherche = () => {
   return (
     <div className="barreRecherche_container">
-      <form>
+      <form className="barreRecherche_form">
         <div className="standart_option">
           <div className="input_with_icon">
             <input type="text" placeholder="Trouver une offre" />

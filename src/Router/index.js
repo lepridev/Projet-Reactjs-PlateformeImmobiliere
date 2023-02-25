@@ -24,12 +24,6 @@ export const router = createBrowserRouter([
         <Louer />
       </Navbar>
     ),
-    children: [
-      {
-        path: "/louer/liste-offres",
-        element: <ListeDesOffres />,
-      },
-    ],
   },
   {
     path: "/vendre",
