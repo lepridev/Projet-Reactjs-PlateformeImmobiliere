@@ -5,6 +5,8 @@ import SharingButtons from "../singleProductComponents/SharingButtons";
 import ContactPoster from "../singleProductComponents/ContactPoster";
 import DetailAndFeature from "../singleProductComponents/DetailAndFeature";
 import Description from "../singleProductComponents/Description";
+import Comodites from "../singleProductComponents/Comodites";
+import Localisation from "../singleProductComponents/Localisation";
 
 const Residence = () => {
   return (
@@ -13,6 +15,8 @@ const Residence = () => {
         <AdressAndPrice />
         <DetailAndFeature />
         <Description />
+        <Comodites />
+        <Localisation />
       </div>
       <div className="rigth">
         <SharingButtons />
