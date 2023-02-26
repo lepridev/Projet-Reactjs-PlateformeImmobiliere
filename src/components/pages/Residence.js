@@ -9,6 +9,7 @@ import Comodites from "../singleProductComponents/Comodites";
 import Localisation from "../singleProductComponents/Localisation";
 import Galeries from "../singleProductComponents/Galeries";
 import Proximite from "../singleProductComponents/Proximite";
+import NoteOffre from "../singleProductComponents/NoteOffre";
 
 const Residence = () => {
   return (
@@ -21,6 +22,7 @@ const Residence = () => {
         <Localisation />
         <Galeries />
         <Proximite />
+        <NoteOffre />
       </div>
       <div className="rigth">
         <SharingButtons />

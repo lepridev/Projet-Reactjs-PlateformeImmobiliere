@@ -1,0 +1,54 @@
+.noteOffre_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 95%;
+    height: 200px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 25px;
+}
+
+.noteOffre_container > .note {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    border: 1px solid #333;
+}
+
+.noteOffre_container>.note > h5 {
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+
+.noteOffre_container > .note_details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 90%;
+    padding: 0 40px;
+}
+
+.noteOffre_container>.note_details > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 40%;
+    margin-left: 20px;
+}
+
+.noteOffre_container>.note_details>div > span {
+    width: 100%;
+    height: 3px;
+    border-radius: 2px;
+    background-color: midnightblue;
+    margin-top: 10px;
+}

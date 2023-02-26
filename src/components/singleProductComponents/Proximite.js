@@ -1,5 +1,7 @@
 import React from "react";
 import "./Proximite.css";
+import { GiHealthNormal } from "react-icons/gi";
+import { FaSchool } from "react-icons/fa";
 
 const Proximite = () => {
   return (
@@ -9,10 +11,16 @@ const Proximite = () => {
       </div>
       <div className="proximite">
         <div className="first">
-          <h5>Pharmacie</h5>
+          <div>
+            <GiHealthNormal />
+            <h5>Pharmacie</h5>
+          </div>
         </div>
         <div>
-          <h5>Ecole</h5>
+          <div>
+            <FaSchool />
+            <h5>Ecole</h5>
+          </div>
         </div>
       </div>
     </div>
