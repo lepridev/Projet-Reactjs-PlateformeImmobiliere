@@ -10,6 +10,8 @@ import Localisation from "../singleProductComponents/Localisation";
 import Galeries from "../singleProductComponents/Galeries";
 import Proximite from "../singleProductComponents/Proximite";
 import NoteOffre from "../singleProductComponents/NoteOffre";
+import Commentaire from "../singleProductComponents/Commentaire";
+import WriteReview from "../singleProductComponents/WriteReview";
 
 const Residence = () => {
   return (
@@ -23,6 +25,8 @@ const Residence = () => {
         <Galeries />
         <Proximite />
         <NoteOffre />
+        <Commentaire />
+        <WriteReview />
       </div>
       <div className="rigth">
         <SharingButtons />
