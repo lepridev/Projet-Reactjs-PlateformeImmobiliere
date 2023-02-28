@@ -4,6 +4,7 @@ import AgentCard from "../agentComponents/AgentCard";
 import AgentInfo from "../agentComponents/AgentInfo";
 import AgentOffreRecap from "../agentComponents/AgentOffreRecap";
 import AgentBox from "../Box/AgentBox";
+import Connexion from "../connexionComponents/Connexion";
 
 const Terrain = () => {
   return (
@@ -11,8 +12,10 @@ const Terrain = () => {
       {/* <AgentCard />
       <AgentInfo />
       <AgentOffreRecap /> */}
+      {/* 
+      <AgentBox /> */}
 
-      <AgentBox />
+      <Connexion />
     </div>
   );
 };
