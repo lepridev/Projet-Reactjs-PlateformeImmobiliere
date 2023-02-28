@@ -1,0 +1,50 @@
+.agentCard_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    height: 250px;
+    border: 1px solid #333;
+    border-radius: 20px;
+}
+
+.agentCard_container > .agent_pic {
+    padding: 20px;
+    width: 30%;
+    height: 100%;
+}
+
+.agentCard_container>.agent_pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.agentCard_container>.agent_details {
+    width: 70%;
+    height: 100%;
+    padding: 20px;
+
+}
+
+.agentCard_container>.agent_details > h5 {
+    font-size: 25px;
+}
+
+.agentCard_container>.agent_details>p {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.agentCard_container>.agent_details>p:last-of-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding: 10px 20px;
+    background-color: #f7cdcd;
+    color: #000;
+    width: 20%;
+    border-radius: 30px;
+    margin-top: 30px;
+}
