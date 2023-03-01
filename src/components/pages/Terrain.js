@@ -6,6 +6,7 @@ import AgentOffreRecap from "../agentComponents/AgentOffreRecap";
 import AgentBox from "../Box/AgentBox";
 import Connexion from "../connexionComponents/Connexion";
 import Inscription from "../connexionComponents/Inscription";
+import DashboardSidebar from "../dashboardComponents/DashboardSidebar";
 
 const Terrain = () => {
   return (
@@ -16,7 +17,8 @@ const Terrain = () => {
       {/* 
       <AgentBox /> */}
 
-      <Inscription />
+      {/* <Inscription /> */}
+      <DashboardSidebar />
     </div>
   );
 };
