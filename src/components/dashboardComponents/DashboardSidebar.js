@@ -2,7 +2,7 @@ import React from "react";
 import "./DashboardSidebar.css";
 import profilPic from "../../assets/homme.jpg";
 import { AiFillDashboard } from "react-icons/ai";
-import { GrUserSettings } from "react-icons/gr";
+import { FiSettings } from "react-icons/fi";
 import { BiCreditCard } from "react-icons/bi";
 import { BsNewspaper } from "react-icons/bs";
 import { MdSecurity } from "react-icons/md";
@@ -25,7 +25,7 @@ const DashboardSidebar = () => {
             <AiFillDashboard className="dash_icon" /> Tableau de Bord
           </li>
           <li className="link">
-            <GrUserSettings className="dash_icon" /> Configuration
+            <FiSettings className="dash_icon" /> Configuration
           </li>
           <li className="link">
             <BiCreditCard className="dash_icon" /> Achat de Credit

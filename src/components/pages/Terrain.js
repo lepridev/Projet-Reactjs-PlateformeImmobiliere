@@ -7,6 +7,8 @@ import AgentBox from "../Box/AgentBox";
 import Connexion from "../connexionComponents/Connexion";
 import Inscription from "../connexionComponents/Inscription";
 import DashboardSidebar from "../dashboardComponents/DashboardSidebar";
+import DashboardWiget from "../dashboardComponents/DashboardWiget";
+import DashboardLog from "../dashboardComponents/DashboardLog";
 
 const Terrain = () => {
   return (
@@ -18,7 +20,13 @@ const Terrain = () => {
       <AgentBox /> */}
 
       {/* <Inscription /> */}
-      <DashboardSidebar />
+      <div className="sidebar">
+        <DashboardSidebar />
+      </div>
+      <div className="contents">
+        <DashboardWiget />
+        <DashboardLog />
+      </div>
     </div>
   );
 };

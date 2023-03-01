@@ -1,4 +1,15 @@
 .terrain_container {
-   width: 100%;
-   background-color: #999;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #d6d6d6;
+}
+
+.terrain_container > .sidebar {
+width: 25%;
+}
+
+.terrain_container>.contents {
+    width: 70%;
 }
